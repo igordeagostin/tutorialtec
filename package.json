@@ -7,13 +7,12 @@
   },
   "author": "Igor",
   "license": "ISC",
-  "main": "noticias.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon app",
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-	"body-parser": "^1.18.3",
+    "body-parser": "^1.18.3",
     "consign": "^0.1.6",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
