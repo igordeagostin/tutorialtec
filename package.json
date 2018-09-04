@@ -9,7 +9,7 @@
   "license": "ISC",
   "main": "noticias.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node noticias.js",
     "test": "node test.js"
   },
   "dependencies": {
@@ -33,5 +33,4 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
 }
