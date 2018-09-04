@@ -1,4 +1,5 @@
 
+const PORT = process.env.PORT || 5000
 var server = http.createServer( function(req, res){
 
     var categoria = req.url;
@@ -14,4 +15,4 @@ var server = http.createServer( function(req, res){
     }
 });
 
-server.listen(3000);
+server.listen(PORT);

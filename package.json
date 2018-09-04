@@ -1,5 +1,5 @@
 {
-  "name": "node-js-getting-started",
+  "name": "tutorialtec",
   "version": "0.3.0",
   "description": "A sample Node.js app using Express 4",
   "engines": {
@@ -9,7 +9,7 @@
   "license": "ISC",
   "main": "noticias.js",
   "scripts": {
-    "start": "node noticias.js",
+    "start": "nodemon app",
     "test": "node test.js"
   },
   "dependencies": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/igordeagostin/tutorialtec"
   },
   "keywords": [
     "node",
